@@ -1,15 +1,17 @@
+/* Global Styles */
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
     color: #333;
 }
 
 header {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -46,8 +48,8 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 5px 0;
-    position: relative;
+    padding: 10px 0;
+    position: fixed;
     bottom: 0;
     width: 100%;
     font-size: 0.8em;
@@ -58,4 +60,38 @@ footer {
         display: block;
         margin: 5px 0;
     }
+}
+
+/* Specific Page Styles */
+
+.skills {
+    margin-top: 30px;
+}
+
+.skills h2 {
+    text-align: center;
+    color: #333;
+}
+
+.skill-item {
+    margin-bottom: 20px;
+}
+
+.skill-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.skill-level {
+    background-color: #4CAF50;
+    height: 100%;
+    border-radius: 10px;
+    width: 80%; /* Change the width to represent the skill level */
 }
