@@ -3,14 +3,14 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #a28089;
+    background-color: #fffff;
     color: #333;
 }
 
 header {
     position: relative;
-    background-color: #a28089;
-    color: #fff;
+    background-color: #fffff;
+    color: #12343b;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -50,7 +50,7 @@ header p {
 }
 
 .topnav a.active {
-    background-color: #a28089;
+    background-color: #fffff;
     color: white;
 }
 
@@ -69,8 +69,8 @@ section {
 }
 
 section h2 {
-    color: #4CAF50;
-    border-bottom: 2px solid #a28089;
+    color: #12343b;
+    border-bottom: 2px solid #fffff;
     padding-bottom: 10px;
 }
 
